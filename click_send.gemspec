@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name = 'click_send'
-  s.version = '3.1.0'
+  s.version = '3.1.1'
   s.summary = 'click_send'
   s.description = 'Clicksend v3 API'
   s.authors = ['APIMATIC', 'Zeeshan Ejaz Bhatti']
