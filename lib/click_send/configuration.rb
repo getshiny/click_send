@@ -7,10 +7,10 @@ module ClickSend
     @base_uri = 'https://rest.clicksend.com/v3'
 
     # your username
-    @username = 'TODO: Replace'
+    @username = ENV['CLICK_SEND_USERNAME']
 
     # your api key
-    @key = 'TODO: Replace'
+    @key = ENV['CLICK_SEND_API_KEY']
 
     # The attribute accessors for public properties
     class << self
